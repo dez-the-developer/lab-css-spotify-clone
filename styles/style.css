@@ -1,8 +1,124 @@
 /*
 Colors:
-
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
-
 */
+
+/* Global Styles */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+/* Navigation Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Music Text Section */
+.music-text {
+    background: url('../images/landing.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+/* Heading Styles */
+h1 {
+    color: white;
+    font-size: 70px;
+    margin: 10px;
+}
+
+h3 {
+    color: rgb(40, 221, 94);
+    margin-bottom: 0;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 40px;
+    text-underline-offset: 15px;
+    margin: 0 0 50px 0;
+}
+
+h5 {
+    font-size: 25px;
+    margin: 0;
+}
+
+/* Center Text Styles */
+.center-text {
+    color: white;
+}
+
+/* Spotify Info Section */
+.spotify-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 80px 0;
+}
+
+/* Info Sections */
+.info-sections {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info-sections > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+/* Info Paragraph */
+.info-p {
+    width: 200px;
+    text-align: center;
+}
+
+/* Kanye West Section */
+.kanye-west {
+    background-color: rgba(9, 207, 108, 0.815);
+    background-image: url('../images/spotify-icon-white.png');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 500px;
+}
+
+.kanye-image {
+    width: 200px;
+    height: 375px;
+}
+
+.kanye-west > div > p {
+    width: 300px;
+}
+
+.kanye-west > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
